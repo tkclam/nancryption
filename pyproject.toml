@@ -1,0 +1,26 @@
+[project]
+name = "nancryption"
+version = "0.1.0"
+description = "Pack float32 payloads into quiet NaN float64 values"
+readme = "README.md"
+authors = [
+    { name = "tlam", email = "thomas.lam@epfl.ch" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.0.0",
+    "pytest>=8.4.2",
+    "ruff>=0.13.2",
+]
+
+[tool.ruff]
+line-length = 100
