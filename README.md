@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/tkclam/nancryption/actions/workflows/ci.yml/badge.svg)](https://github.com/tkclam/nancryption/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/nancryption.svg)](https://pypi.org/project/nancryption/)
-[![Python versions](https://img.shields.io/pypi/pyversions/nancryption.svg)](https://pypi.org/project/nancryption/)
+[![Python >=3.10](https://img.shields.io/badge/python-%3E%3D3.10-3776AB?logo=python&logoColor=white)](https://github.com/tkclam/nancryption/blob/main/pyproject.toml)
 [![License: MIT](https://img.shields.io/github/license/tkclam/nancryption)](https://github.com/tkclam/nancryption/blob/main/LICENSE)
 
 nancryption encodes float32 values into float64 quiet-NaN bit patterns and
