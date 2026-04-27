@@ -1,5 +1,10 @@
 # nancryption
 
+[![CI](https://github.com/tkclam/nancryption/actions/workflows/ci.yml/badge.svg)](https://github.com/tkclam/nancryption/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/nancryption.svg)](https://pypi.org/project/nancryption/)
+[![Python versions](https://img.shields.io/pypi/pyversions/nancryption.svg)](https://pypi.org/project/nancryption/)
+[![License: MIT](https://img.shields.io/github/license/tkclam/nancryption)](https://github.com/tkclam/nancryption/blob/main/LICENSE)
+
 nancryption encodes float32 values into float64 quiet-NaN bit patterns and
 decodes them back again. This is useful when you need to smuggle a 32-bit
 payload through a float64-only path while still tagging values as NaN.
